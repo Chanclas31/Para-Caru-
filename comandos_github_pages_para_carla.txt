@@ -1,0 +1,57 @@
+GUÍA RÁPIDA – COMANDOS PARA SUBIR TU PÁGINA A GITHUB PAGES
+
+REQUISITOS:
+- Tener Git instalado
+- Tener una cuenta en GitHub
+- Tener estos archivos en una carpeta:
+  - index.html
+  - iwannabeyours.mp3
+
+----------------------------------
+PASO 1: ABRIR TERMINAL EN TU CARPETA
+----------------------------------
+cd ruta/de/tu/carpeta
+
+----------------------------------
+PASO 2: INICIALIZAR REPOSITORIO
+----------------------------------
+git init
+
+----------------------------------
+PASO 3: AÑADIR ARCHIVOS
+----------------------------------
+git add .
+
+----------------------------------
+PASO 4: HACER EL PRIMER COMMIT
+----------------------------------
+git commit -m "Pagina para Carla 💖"
+
+----------------------------------
+PASO 5: CONECTAR CON GITHUB
+(Reemplaza TUUSUARIO)
+----------------------------------
+git branch -M main
+git remote add origin https://github.com/TUUSUARIO/para-carla.git
+
+----------------------------------
+PASO 6: SUBIR A GITHUB
+----------------------------------
+git push -u origin main
+
+----------------------------------
+PASO 7: ACTIVAR GITHUB PAGES
+----------------------------------
+En GitHub:
+Settings → Pages
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+Save
+
+----------------------------------
+TU PÁGINA ESTARÁ EN:
+----------------------------------
+https://TUUSUARIO.github.io/para-carla/
+
+LISTO 💖🌌
